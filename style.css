@@ -29,6 +29,7 @@ body{
     flex-direction: column;
 }
 
+
 input[type="email"],input[type="password"],input[type="text"]{
     background-color: #fff6ef;
     padding: 10px;
@@ -36,8 +37,9 @@ input[type="email"],input[type="password"],input[type="text"]{
     border-radius: 50px;
     margin-bottom: 5px;
 }
-label{
-    margin-bottom: 5px
+.label{
+    margin-bottom: 5px;
+    color: #5c5b5b;
 }
 
 .btn{
