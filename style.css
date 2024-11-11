@@ -85,10 +85,24 @@ input[type="email"],input[type="password"],input[type="text"]{
     font-size: small;
 }
 
-.two{
-    margin-top: 70px;
+.logo{
+    margin-top: 80px;
+    right: 15%;
+    position: relative;
+    z-index: 2;
+}
+
+.bg{
+
+
+    position: relative;
+    z-index: 1;
     background-color:#fde2cf;
     background-size:50% auto;
+    margin-top: -480px;
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
+    height: 680px;  
+    width: 50%;
+    left:9%
 }
