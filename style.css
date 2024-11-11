@@ -2,12 +2,10 @@ body{
     background-color: #fff6ef;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .main{
     display: flex;
     justify-content:space-around;
 }
-
 .one{
     width: 300px;
     margin:50px auto;
@@ -15,62 +13,64 @@ body{
     background-color: #fff6ef;
     border-radius: 5px;
 }
-
 .heading{
     color:#424241;
  text-align: center;
  margin-bottom: 20px;
 }
-
-
-
 #form, #formsignup{
     display: flex;
     flex-direction: column;
 }
-
-
+.label{
+    position: relative;
+    z-index: 2;
+    left: 7%;
+    font-size:13px;
+    top: 13px;
+    background-color: #fff6ef;
+    width: fit-content;
+    border-left: 10px solid #fff6ef;
+    border-right: 10px solid #fff6ef;
+}
 input[type="email"],input[type="password"],input[type="text"]{
     background-color: #fff6ef;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #d7d3cd;
     border-radius: 50px;
     margin-bottom: 5px;
+    position: relative;
+    z-index: 1;
+    font-size: 12px;
 }
 .label{
     margin-bottom: 5px;
     color: #5c5b5b;
 }
-
 .btn{
     background-color: #fde2cf;
     color: #a47753;
     padding:10px 20px;
     border: none;
     border-radius: 50px;
-    
 }
 .forgot{
     color:#777674;
     text-align: right;
 }
-
 .or{
     text-align: center;
     color: #aeaaa4;
 }
-
 .social{
     text-align: center;
 }
 .social img{
     width:20px;
 }
-
 .social a{
     margin: 10px 20px;
 }
-
 .signup{
     text-align: center;
     color:  #aeaaa4;
@@ -79,22 +79,17 @@ input[type="email"],input[type="password"],input[type="text"]{
     color: #ce966a;
     font-weight: bold;
     text-decoration: none;
-
 }
 .size{
     font-size: small;
 }
-
 .logo{
     margin-top: 80px;
     right: 15%;
     position: relative;
     z-index: 2;
 }
-
 .bg{
-
-
     position: relative;
     z-index: 1;
     background-color:#fde2cf;
